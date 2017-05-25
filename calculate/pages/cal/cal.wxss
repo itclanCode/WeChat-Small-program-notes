@@ -1,0 +1,44 @@
+/* pages/cal/cal.wxss */
+.content{
+    height:100%;
+    display:flex;
+    flex-direction:column; /*纵向的*/
+    align-items:center;
+    box-sizing:border-box;
+    padding-top:30rpx;
+    background:#ccc;
+    
+}
+.screen{
+    background:#fff;
+    border-radius:3px;
+    text-align:right;
+    width:720rpx;
+    height:100rpx;
+    line-height:100rpx;
+    padding-right:10rpx;
+    margin-bottom:30rpx;
+}
+.btnGroup{
+    display:flex;
+    flex-direction:row;
+} 
+.item{
+    width:160rpx;
+    min-height:150rpx;
+    margin:10rpx;
+    text-shadow:0 1px 1px rgba(0,0,0,0.3);
+    border-radius:5px;
+    text-align:center;
+    line-height:150rpx;
+}
+.pink{
+    color:#fef4e9;
+    border:solid 1px #da7c0c;
+    background:deeppink;
+}
+.blue{
+    color:#d9eef7;
+    border:solid 1px #0076a3;
+    background:#40C766;
+}

@@ -1,0 +1,22 @@
+/* pages/list/list.wxss */
+.content {
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    box-sizing:border-box;
+    background:#ccc;
+}
+
+.item{
+    width:90%;
+    line-height: 100rpx;
+    margin-top:5rpx;
+    margin-bottom:3rpx;
+    border-radius: 3px;
+    padding-left: 3rpx;
+    color: #fef4e9;
+    border: solid 1px #40C766;
+    background:#40C766;
+}
+
