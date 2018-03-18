@@ -1,7 +1,7 @@
 ### 简计算器Demo实现
 
 * 实现效果图
-![](img/calculate.gif)
+![](01calculate/img/calculate.gif)
 
 * 功能：简易加减乘除,对操做过的数进行记录
 * 实现计算器功能,可以查看历史的计算记录
