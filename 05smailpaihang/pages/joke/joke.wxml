@@ -1,0 +1,15 @@
+<!--pages/joke/joke.wxml-->
+<view bindtap="jump"  id="{{index}}"  class="ul" hidden="{{!flag}}" wx:for="{{data}}" wx:key="u">
+         <view class="li">
+              <view class="left  {{color[index]}}">{{index+1}}</view>
+              <view class="center">{{item.title}}</view>
+              <view class="right">
+                       <image src="../../img/alt.png"></image>
+              </view>
+         </view>
+</view>
+
+<!-- 当有数据的时候,显示加载这个 -->
+<view  class="loading"  hidden='{{!loadingMore}}'>正在加载更多</view>
+<!-- 当无数据时,显示加载完成 -->
+<view class="loading"  hidden='{{!loadingOver}}'>已加载全部</view>
