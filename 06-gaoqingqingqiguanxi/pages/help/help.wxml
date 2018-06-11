@@ -1,0 +1,27 @@
+<view>  
+    <view class="box">  
+      <view style="color:#7AB900;padding-left:5px;font-weight:bold;">使用指南:</view> 
+      <view  class="sex-switch left-distance"><icon class="iconfont icon-boy">男</icon><icon class="iconfont icon-girl">女</icon>角色切换</view>
+      <view class="second"><icon class="iconfont icon-back" style="color:#14AA82;margin-right:3px;"></icon>退格清除上一层关系</view>
+      <view class="second"><icon type="clear" size="15" color="#FF2525"></icon>清除所有输入</view>
+      <view class="review left-distance"><icon type="search" size="15" color="#1FAEFF"></icon>互查,输入内容与结果身份对比</view>
+      <view class="border"></view>
+      <view style='color:red;text-align:center' bindtap='goZan'>
+         与君邂逅,始于扫码<icon class="iconfont icon-saoma"></icon>
+          <!--
+         <view>
+                <navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="" extra-data="" version="release"><icon class="iconfont icon-zan" ></icon></navigator>
+         </view>-->
+         <image width="100%" height="100px"  src="../assets/zanshang.jpg"></image>
+      </view>
+     
+    </view> 
+    
+    <view class="copyright" >  
+          <text>微信itclanCoder公众号</text>
+          <text>Copyright © 2018 @随笔川迹</text>
+    </view>
+    <button class='returnCalIndex' bindtap="navigateBack"  type="primary">返回</button>  
+</view>  
+
+

@@ -1,0 +1,153 @@
+
+/*
+    @pages/calindex/calindex.wxss 
+    @author suibichuanji
+    @date    2018-05-18 08:02:33
+    @weChatPublicId (itclanCoder)
+    @PersonWeChatId (suibichuanji)
+     @PersonQQ (1046678249)
+    @dec 搞清亲戚称谓关系主要css样式
+*/
+page{
+    height:100%; /*高度撑开100%*/
+}
+@import "../base/iconfont.wxss";   /*引入字体图标样式,外部样式*/
+.boy{
+  position:absolute;
+  right:85px;
+  font-size:40rpx;
+}
+.girl{
+  position:absolute;
+  right:0px;
+  font-size:40rpx;
+}
+.icon-boy{
+    color:#14AA82;
+    font-size:25px;
+}
+.icon-girl{
+    color:#EB4545;
+   font-size:25px;
+}
+.switch-btn{
+  position:absolute;right:23px;
+}
+.icon-back{
+   margin-left:5px;
+   color:#14AA82;
+}
+.icon-guifanliebiaoqingchu{
+    margin-left:5px;
+    font-size:20px;
+    position:absolute;
+    bottom:0px;
+    right:2px;
+}
+.icon-bangzhu{
+    color:#FF7E7A;
+    font-size:20px;
+    margin-left:2px;
+    position:absolute;
+    bottom:0;
+}
+.icon-suosou{
+   color:#64C1FF;
+   font-size:20px;
+   positon:absolute;
+   right:1px;
+   bottom:10px;
+}
+.back{
+  color:#14AA82 !important;
+}
+.second{
+    /*background: #e5e5e5;*/
+    background: #fff;    
+    color: #000;
+}
+.section{
+   /*background-color: #333333;*/
+   background-color: #fff;
+  font-size: 30rpx;
+  width: 95%;
+  height: 22vh;
+  color: #bbbbbb;
+  padding-left: 5%;
+}
+
+.textstyle {
+  background-color: #333;
+  font-size: 40rpx;
+  width: 95%;
+  height: 22vh;
+  color: #ccc;
+  padding-left: 5%;
+}
+/*结果显示*/
+.result-style{
+  background-color: #333333;
+  font-size: 20px;
+  width: 100%;
+  height: 10vh;
+  color: #fff;
+  border-color: #333333;
+  text-align:left;  /*结果在左边显示*/
+  
+}
+
+.body-view{
+  height: 7vh;
+  line-height:7vh;
+  background-color: #2b2b2b;
+  color: #e6e6e6;
+  padding-left: 5%;
+  font-size: 32rpx;
+  position:relative;
+}
+
+.btnGroup{
+    display:flex;
+    flex-direction:row;
+}
+
+.item{
+    width:25%;
+    min-height:10rpx;
+    margin:0rpx;
+    border-radius:0px;
+    text-align:center;
+    line-height:15vh;
+    display:inline-block;
+    font-size: 40rpx;
+    
+}
+.item2{
+    width:50%;
+    min-height:0rpx;
+    margin:0rpx;
+    border-radius:0px;
+    text-align:center;
+    line-height:15vh;
+    display:inline-block;
+}
+
+.green{
+    color: #fff;
+    border:solid 0px #444444;
+    background:#78B600;
+    font-size:40rpx;
+    
+}
+.normal{
+    color: #fff;
+    border:solid 1px #666;
+    background-color: #333;
+}
+.normal-del{
+    color:#FF2525;
+    border:solid 1px #444444;
+    background-color: #333333;
+}
+
+

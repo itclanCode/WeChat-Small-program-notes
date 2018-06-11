@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/calindex/calindex",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "搞清亲戚称谓关系",
+    "navigationBarTextStyle": "white"
+  }
+}

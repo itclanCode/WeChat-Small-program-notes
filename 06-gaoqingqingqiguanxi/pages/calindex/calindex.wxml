@@ -1,0 +1,50 @@
+
+<!-- 用来显示用户的选项比如我的儿子的爸爸  -->
+  <view >
+    <textarea  class="textstyle" value='{{screenData}}' disabled='true' maxlength="40"  />
+  </view>
+
+  <!-- 用来显示结果 -->
+  <view >
+    <textarea  class="result-style" value='{{result}}' disabled='true' />
+  </view>
+  
+
+
+
+  <!-- 男女选择 判断是否被选中-->
+  <view class="body-view"  >
+      <label class="boy"><icon class="iconfont icon-boy" color="#EB4545"></icon></label>
+      <switch class="switch-btn" color="#7AB900" bindchange="switchChange"  />
+      <label class="girl"><icon class="iconfont icon-girl"></icon></label>
+  </view>
+
+  <!-- 显示按钮功能 style="height:{{second_height}}px"-->
+  <view class="second" >
+    <view class="btnGroup"  >       
+        <view class="item normal" bindtap="clickButton" id="{{id1}}">夫</view>
+        <view class="item normal" bindtap="clickButton" id="{{id2}}">妻</view>
+        <view class="item normal back" bindtap="clickButton" id="{{id3}}">退格<icon class="iconfont icon-back"></icon></view>
+        <view class="item normal-del" bindtap="clickButton" id="{{id4}}" style="position:relative">清除<icon class="iconfont icon-guifanliebiaoqingchu"></icon></view>
+    </view>
+
+    <view class="btnGroup">
+        <view class="item normal" bindtap="clickButton" id="{{id5}}">父</view>
+        <view class="item normal" bindtap="clickButton" id="{{id6}}">母</view>
+        <view class="item normal" bindtap="clickButton" id="{{id7}}">兄</view>
+        <view class="item normal" bindtap="clickButton" id="{{id8}}">弟</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item normal" bindtap="clickButton" id="{{id9}}">姐</view>
+        <view class="item normal" bindtap="clickButton" id="{{id10}}">妹</view>
+        <view class="item normal" bindtap="clickButton" id="{{id11}}">子</view>
+        <view class="item normal" bindtap="clickButton" id="{{id12}}">女</view>
+    </view>
+    <view class="btnGroup">
+        <view class="item normal" style="color:#FF7E7A" bindtap="clickButton" id="{{id15}}">帮助
+        <icon class="iconfont icon-bangzhu"></icon>
+        </view>
+        <view class="item normal" style="color:#64C1FF;"  bindtap="clickButton" id="{{id13}}">互查<icon  class="iconfont icon-suosou" ></icon></view>
+        <view class="item2 green" bindtap="clickButton" id="{{id14}}">=</view>
+    </view>
+  </view>
