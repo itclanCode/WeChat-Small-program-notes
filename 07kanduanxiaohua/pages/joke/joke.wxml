@@ -1,0 +1,31 @@
+<!--pages/joke/joke.wxml-->
+<!--头部广告  -->
+<view>
+         <navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+                      <view>
+                  <image class="top-banner"   src="../images/topbanner.png"></image>
+                     </view>
+         </navigator>
+         
+</view>
+<!--头部广告结束  -->
+<view bindtap="jump"  id="{{index}}"  class="ul" hidden="{{!flag}}" wx:for="{{data}}" wx:key="u">
+         <view class="li">
+             <view>{{index+1}}</view>
+              <view class="left iconfont  {{color[index]}}"></view>
+              <view class="center">{{item.title}}</view>
+              <view class="right">
+                       <image src="../images/alt.png"></image>
+              </view>
+         </view>
+</view>
+
+<!-- 当有数据的时候,显示加载这个 -->
+<view  class="loading"  hidden='{{!loadingMore}}'>正在加载更多</view>
+<!-- 当无数据时,显示加载完成 -->
+<view class="loading"  hidden='{{!loadingOver}}'>已加载全部</view>
+<!--右侧提示小按钮开始  -->
+<view>
+        <view><icon bindtap='walkabout' class="iconfont icon-xinxi"></icon></view>
+</view>
+<!--右侧提示小按钮结束  -->

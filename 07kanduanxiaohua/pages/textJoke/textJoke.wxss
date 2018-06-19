@@ -1,0 +1,36 @@
+/* pages/textJoke/textJoke.wxss */
+@import "../commonstyle/iconfont.wxss";
+.content{
+  margin:20px;
+  letter-spacing:2px;
+  text-align:justify;
+}
+
+.title{
+    text-align:center;
+    font-size:20px;
+    line-height:80rpx;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.text{
+    text-indent:2em;
+    font-size:16px;
+    color:#333;
+}
+
+.time{
+  text-align:right;
+  color:#ccc;
+  margin-top:10rpx;
+}
+
+.icon-info{
+   color:red;
+   position: fixed;
+   right:30rpx;
+   top:20rpx;
+   font-size:40rpx;
+}

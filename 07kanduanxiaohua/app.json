@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/joke/joke",
+    "pages/about/about",
+      "pages/textJoke/textJoke"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

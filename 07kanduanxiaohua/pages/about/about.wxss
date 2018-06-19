@@ -1,0 +1,72 @@
+/* pages/about/about.wxss */
+@import "../commonstyle/iconfont.wxss";
+.top-banner{
+  display:block;
+   width:750rpx;
+   height:400rpx;
+}
+.message{
+  padding:10rpx 30rpx 0  30rpx;
+  font-size:30rpx;
+}
+.message view{
+    border-bottom:1px solid #ccc;
+    line-height:80rpx;
+}
+.iconfont{
+  margin-right:10rpx;
+  font-size:40rpx;
+  display:inline-block;
+  vertical-align: middle;
+}
+.icon-author{
+  color:brown;
+}
+.icon-jianjie{
+  color:coral;
+}
+.icon-wexin{
+  color:cornflowerblue;
+}
+.icon-weixingongzhonghao{
+  color:red;
+}
+.flex-wrap{
+  display:flex;
+  flex-direction: row;
+  padding:10rpx 20rpx 0 20rpx;
+}
+.scroll-view-h{
+  width:300rpx;
+  white-space: nowrap;
+  margin:0 auto;
+  border:1px solid #ccc;
+}
+.scroll-view-item{
+    display:inline-block;
+    width:100%;
+    height:300rpx !important;
+}
+.scroll-view-item image{
+  display:inline-block;
+  width:100%;
+  height:300rpx;
+}
+
+.shang-content{
+   text-align:center;
+   padding:20rpx 30rpx;
+   font-size:30rpx;
+   color:red;
+}
+.icon-dianzan{
+  font-size:60rpx;
+  color:red;
+}
+.icon-fanhui{
+  position:fixed;
+  right:60rpx;
+  bottom:50rpx;
+  font-size:60rpx;
+  color:cyan;
+}

@@ -1,0 +1,54 @@
+<!--pages/about/about.wxml-->
+<!--头部开始  -->
+<view>
+     <navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+                   <view>
+                        <image class="top-banner" src="../images/about-banner.png"></image>
+            </view>
+     </navigator>
+</view>
+<!--头部结束  -->
+<!--内容开始  -->
+<view>
+     <view class="message">
+              <view><icon class="iconfont icon-author"></icon>作者:随笔川迹</view>
+              <view><icon class="iconfont icon-jianjie"></icon>简介:一个不知名靠前排90后帅小伙,程序猿一枚</view>
+              <view><icon class="iconfont icon-wexin"></icon>个人微信:suibichuanji</view>
+              <view><icon class="iconfont icon-weixingongzhonghao"></icon>微信公众号:itclanCoder</view>
+                <view style="border-bottom:none;text-align:center;">滑动并点击小程序</view>
+     </view>
+     
+</view>
+<!--内容结束  -->
+<!--相关联公众号  -->
+<view>
+      <scroll-view scroll-x class="scroll-view-h">
+                  <view class="scroll-view-item">
+                  <navigator target="miniProgram" open-type="navigate" app-id="wxf009c0bfc174dbb8"  path="pages/calindex/calindex"  version="release">
+                            <image src="../images/qinqicode.jpg"></image>
+                  </navigator>
+                  </view>
+                  <view class="scroll-view-item">
+                                 <image src="../images/xuweiyidai.png"></image>
+                  </view>
+                  <view class="scroll-view-item"> <image src="../images/xuweiyidai.png"></image></view>
+      </scroll-view>
+</view>
+<!--相关联公众号  -->
+<!--打赏支持开始  -->
+<view>
+       <view class="shang-content">
+              <navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+                            <view><icon class="iconfont icon-dianzan"></icon></view>
+                    <view>点赞</view>
+              </navigator>
+       </view>
+</view>
+<!--打赏支持结束  -->
+<!--返回主页面开始  -->
+<view>
+            <view><icon bindtap='callbackindex' class="iconfont icon-fanhui"></icon></view>
+</view>
+<!--返回主页面结束  -->
+
+

@@ -1,0 +1,13 @@
+<!--pages/textJoke/textJoke.wxml-->
+<view class="content">
+        <view class="title">{{data.title}}</view>
+        <view class="text">{{data.text}}</view>
+        <view class="time">{{data.ct}}</view>
+</view>
+<!--提示页开始  -->
+<view>
+        <view>
+              <icon bindtap="walkaboutpage" class="iconfont icon-info"></icon>
+        </view>
+</view>
+<!--小提示结束  -->

@@ -1,0 +1,102 @@
+/* pages/joke/joke.wxss */
+@import "../commonstyle/iconfont.wxss";
+
+.top-banner{
+  width:750rpx;
+  height:368rpx;
+  margin-top:0;
+}
+.ul{
+   padding-left: .7143rem;
+   padding-right:0.7143rem;
+   font-size:1rem;
+   color:#333;
+   font-family:"Microsoft Yahei";
+}
+.li{
+    width:100%;
+    height:4.0714rem;
+    border-bottom:1px solid #e5e5e5;
+    position:relative;
+    display:flex;
+    line-height:4.0714rem;
+}
+.left{
+    padding:0 .5rem;
+    height:1.0714rem;
+    line-height:1.0714rem;
+    border-radius: 0.5rem;
+    position:absolute;
+    top:50%;
+    left:0;
+    margin-top:-0.53557rem;
+    text-align:center;
+    font-size:0.7143rem;
+    color:#999;
+    display:inline-block;
+}
+.center{
+   width:100%;
+   /*padding-right:2.657rem;*/
+   display:table-cell;
+   vertical-align:middle;
+   padding-left:.3rem;
+   cursor:pointer;
+   font-size:1rem;
+   box-sizing:border-box;
+   text-indent:2.0rem;
+
+   /* 省略号*/
+   white-space:nowrap;
+   overflow:hidden;
+   text-overflow:ellipsis;
+}
+.right{
+   position:absolute;
+   top:0;
+   right:-25rpx;
+   width:2.5rem;
+   height:100%;
+   cursor:pointer;
+   text-align:center;
+}
+image{
+   width:1.5rem;
+   height:1.5rem;
+   margin-top:1.5rem;
+   display:inline-block;
+}
+.iconfont{
+   margin-left:10rpx;
+   font-size:40rpx;
+}
+.icon-guanjun{
+    color:red;
+}
+.icon-yajun{
+  color:blue;
+}
+.icon-jijun{
+  color:chartreuse;
+}
+.two{
+   background:#ff7200;
+   color:#fff;
+}
+.three{
+   background:#f8b300;
+   color:#fff;
+}
+
+.loading{
+   text-align:center;
+   padding:10rpx;
+   color:#ccc;
+}
+.icon-xinxi{
+  position:fixed;
+  bottom:40rpx;
+  right:50rpx;
+  font-size:80rpx;
+  color:red;
+}

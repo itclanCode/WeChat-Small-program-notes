@@ -1,0 +1,8 @@
+{
+    "navigationBarBackgroundColor": "#4A90E2",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "看短笑话",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#4A90E2",
+    "backgroundTextStyle": "dark"
+}
