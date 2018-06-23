@@ -1,0 +1,115 @@
+/* pages/news/news.wxss */
+/*引入外部图标样式  */
+
+@import   "../asset/commonstyle/iconfont.wxss";
+
+.page-img{
+     display:-webkit-flex;
+     display:flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding-top:30rpx;
+     padding-left:50rpx;
+     padding-right:50rpx;
+     text-align:center;
+}
+.icon-news{
+    padding:0 40rpx;
+}
+.line{
+       background:linear-gradient(
+	     	transparent 49%,
+	     	#ccc 49%, 
+	     	#ccc 51%, 
+	     	transparent 51%);
+	     	flex:1;
+}
+.icon-xinwen{
+    font-size:70rpx;
+    color:#F44336;
+}
+/*new area 开始  */
+.news-wrap{
+    padding:0 50rpx 30rpx 50rpx;
+    margin-top:45rpx;
+}
+.news-wrap{
+     display: -webkit-flex;
+      display:flex;
+}
+.news-wrap .left{
+   width:80px;
+   text-align:center;
+   display:flex;
+   flex-direction: column;
+}
+.icon-toparrow{
+  color:#ccc;
+  font-size:60rpx;
+}
+.time-wrap::after{
+   content:"";
+   width:3rpx;
+   height:100rpx;
+   background:#ccc;
+   display:block;
+   margin:-35rpx  auto 10rpx;
+}
+.news-wrap  .right {
+    flex:1;
+}
+.news-wrap  .right .project-name{
+    border:1px solid #ccc;
+    height:auto;
+    font-size:35rpx;
+    border-radius:10rpx;
+    padding:10rpx;
+    line-height:50rpx;
+}
+.event1{
+   margin-top:100rpx;
+}
+.event2{
+  margin-top:110rpx;
+}
+.event3{
+  margin-top:115rpx;
+}
+.event4{
+  margin-top:120rpx;
+}
+.event5{
+ margin-top:100rpx;
+}
+.event6{
+    margin-top:117rpx;
+}
+.event7{
+   margin-top:120rpx;
+}
+.event8{
+  margin-top:100rpx;
+}
+.event9{
+  margin-top:110rpx;
+}
+.event10{
+   margin-top:0rpx;
+}
+/*new area 结束  */
+.callphone{
+    position:fixed;
+    right:50rpx;
+    bottom:130rpx;
+}
+.icon-dianhua{
+        font-size:60rpx;
+        color:dodgerblue;
+}
+.icon-manner{
+  position:fixed;
+  right:50rpx;
+  top:10rpx;
+  font-size:50rpx;
+  color:red;
+}

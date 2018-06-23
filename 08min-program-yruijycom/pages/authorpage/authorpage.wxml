@@ -1,0 +1,36 @@
+<navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+           <view>
+       <view class="banner"><image src="/pages/asset/images/authorpage/01.jpg"></image></view>
+</view>
+</navigator>
+<view>
+          <view class="info">
+                     <view><icon class="iconfont icon-author"></icon>开发者:随笔川迹</view>
+                     <view><icon class ="iconfont icon-jianjie"></icon>简介:一个靠前排的90后帅小伙,代码男一枚</view>
+                     <view><icon class="iconfont icon-weixin"></icon>个人微信号:suibichuanji</view>
+                     <view><icon class="iconfont icon-gongzhonghao"></icon>微信公众号:itclanCoder</view>
+                     <view><icon class="iconfont" type="info" size="15"></icon>温馨:如果您需要小程序开发,可加上面微信,具体可详聊</view>
+          </view>
+          
+</view>
+<view>
+         <navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+                                  <view class="zan-wrap">
+                    <view class="dianzan"><icon class="iconfont icon-dianzan"></icon>点赞</view>
+        <image  mode="scaleToFill" src="/pages/asset/images/authorpage/02.jpg"></image>
+          </view>
+         </navigator>
+          
+        
+</view>
+<view>
+<navigator target="miniProgram" open-type="navigate" app-id="wx18a2ac992306a5a4" path="pages/apps/largess/detail?accountId=139423" version="release">
+               <button class="encourage" >鼓励</button>
+</navigator>
+       
+</view>
+<view>
+        <view>
+                <icon bindtap='back'  class="iconfont icon-return"></icon>
+        </view>
+</view>

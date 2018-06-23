@@ -1,0 +1,91 @@
+<!--pages/news/news.wxml-->
+<view>
+            <!--  顶部logo开始  -->
+            <view class="page-img">
+                    <view class="line"></view>
+                    <view><icon class="iconfont icon-xinwen"></icon></view>
+                    <view class="line"></view>
+            </view>                     
+            <!-- 顶部logo结束-->
+            <!--new area 开始  -->
+            <view  class="news-wrap">
+                          <view class="left">
+                                 <view class="time-wrap">
+                                     <view>大事记</view>
+                                     <view>2018年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2017年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2016年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2015年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2014年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2013年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2012年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2011年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="time-wrap">
+                                     <view >大事记</view>
+                                     <view>2010年</view>
+                                     <view><icon class="iconfont icon-toparrow"></icon></view>
+                                 </view>
+                                 <view class="last-wrap">
+                                     <view >大事记</view>
+                                     <view>2009年</view>
+                                 </view>
+                          </view>                                <view class="right">
+                                        <view class="project-name event10">北京市昌平区九华山庄滑冰场钢结构项目</view>
+                                        <view class="project-name event9">北京市顺义区钢结构项目,断桥铝项目</view>
+                                        <view class="project-name event8">北京瑞隆基业更名为北京勇瑞基业商贸有限公司</view>
+                                        <view class="project-name event7">北京市海淀区厂房装修项目，轻钢项目</view>
+                                        <view class="project-name event6">北京市朝阳区东方明珠大厦装修项目</view>
+                                        <view class="project-name event5">河北唐山钢结构工程项目,十字型，天棚项目</view>
+                                        <view class="project-name event4">天津区钢结构工程项目,阳光板,轻钢别墅项目</view>
+                                        <view class="project-name event3 ">北京通州区钢结构工程项目.公寓装修项目</view>
+                                        <view class="project-name event2">北京顺义区高丽营钢结构厂房，多高层钢结构</view>
+                                        <view class="project-name event1">北京瑞隆基业商贸有限公司成立</view>
+                          </view> 
+                          
+            </view>
+            <!-- new area结束  -->
+</view>
+
+<!--拨打电话开始  -->
+<view>
+      <view class="callphone" bindtap='callphone'><icon class="iconfont icon-dianhua"></icon></view>
+</view>
+<!--拨打电话结束  -->
+<!--拨打电话结束  -->
+<!--个人开发者中心  -->
+<view>
+        <view>
+                <icon class="iconfont icon-manner" bindtap="walkauthorpage"></icon>
+        </view>
+</view>
+<!--个人开发者中心  -->

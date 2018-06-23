@@ -1,0 +1,73 @@
+<!--pages/about/about.wxml-->
+<!-- 顶部图片位置开始  -->
+<view class="about-top">
+   <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="about">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="750" height="720"/>
+          </swiper-item>
+  </block>
+         </swiper>
+</view>
+<!-- 顶部图片位置结束  -->
+
+<!--内容部分开始  -->
+<view class="content">
+           <!--勇瑞基业是谁开始 -->
+           <view>
+                  <view class="title-name">勇瑞基业是谁?</view>
+                   <view class="company-desc text-indent">北京勇瑞基业商贸有限公司(简称勇瑞基业),成立于2009年,坐落于北京市朝阳区孙河乡沈家坟村北,<text>是集技术研发,设计咨询,加工制作,施工安装与售后服务于一体发展的钢结构专业企业,提供工程建设项目,承接家装修</text>,具有完善,独立,完整的知识产权钢结构建筑以及家庭装修外围系统装饰型公司</view>
+           
+           </view>
+           <!-- 勇瑞基业是谁结束 -->
+           
+             <view>
+                         <view class="title-name">勇瑞基业有什么?</view>
+                         <view class="text-indent">公司聘请著名工艺美院毕业的设计人才,并根据项目随时外聘相关专家,具有完整的设计,施工,运维等,核心人才队伍资质,人均超10年以上从业经验,其中80,90后为主干中间力量,70后为背后指导老司机.我们力图使设计具有超时代的艺术感。公司也吸收东西方文化的精华,可根据客户偏好采用传统风格或现代派艺术</view>
+<view class="text-indent"><text>我们工匠齐全，做工精细，水、电、瓦、木、油、铝合金、塑钢门窗、彩钢房、阳光棚等金属结构工程.</text>我们几乎全部采用一流的技术工人，并在队伍管理上践行一带一路,同时也引入人才竞争和激励机制.</view>
+                       <view class="text-indent">我们力求在每一个环节都能做到优质高效。<text>"勇担当,业于精"是我们的两个基本点,而"以质取胜,价格合理,客户满意”是我们的一个中心,经营宗旨</text>,基于我们的愿景,我们坚信未来不负使命</view>
+             </view>
+             <view>
+                         <view class="title-name">勇瑞基业能提供什么?</view>
+                         <view class="text-indent">1. 提供<text>专业钢结构厂房,活动房,天棚,钢结构平台,彩钢板,制作,钢结构屋面,钢结构楼梯,不锈钢,设计标准化,工程量统计等</text>,现已成为钢结构领域的遥遥领跑者</view>
+                         <view class="text-indent">2. 提供<text>专业断桥铝门窗,铝合金,塑钢,制作,替换,安装,改造于一体,服务于大中小型企业,机场,大型仓库,工业厂房,体育馆,批发商城,楼宅,别墅，高新技术开发区等</text></view>
+                          <view class="text-indent">3. 提供<text>专业的家庭企业,室内,室外,别墅装修,主体,水电改造,泥水部分,面子工程(粉刷)施工</text>等
+                          </view>
+               </view>
+               <view class="how-concat">
+                          <view class="title-name">怎么联系我们?</view>
+                          <view><icon class="iconfont icon-map"></icon>公司地止:北京市朝阳区孙河乡沈家坟村北</view>
+                          <view ><icon class="iconfont icon-shouji"></icon>联系电话(王经理):13701134148</view>
+                          <view><icon class="iconfont icon-zuoji"></icon>座机:086-010-60440426</view>
+                          <view><icon class="iconfont icon-weixin"></icon>个人微信:yongruijiye</view>
+                          <view><icon class="iconfont icon-dingyuehao"></icon>微信公众平台:勇瑞钢构</view>
+                          <view><icon class="iconfont icon-qq"></icon>QQ:2237254064</view>
+                          <view><icon class="iconfont icon-emil"></icon>公司邮箱:yruijy@163.com</view>
+                          <view><icon class="iconfont icon-time"></icon>时间:周一至周日8:00-22:00</view>
+                           <view style="padding-bottom:20rpx;">
+                       <view class="title-name">愿景</view>
+                           <view class="text-indent">让我们的房子住得更加舒适,阔气,端庄而别致,成为钢结构,家装修行业的领跑者,让建筑与健康一起同行</view>
+               </view>
+
+                          <!--引入地图开始  -->
+            <view>
+                       <map-route  route-info="{{routeInfo}}"></map-route>
+            </view>                    
+              <!--引入得图结束  -->
+               </view>
+</view>
+<!--内容部分结束  -->
+<!--拨打电话开始  -->
+<view>
+      <view class="callphone" bindtap='callphone'><icon class="iconfont icon-dianhua"></icon></view>
+</view>
+<!--拨打电话结束  -->
+<!--返回主页面开始 -->
+<view>
+       <view>
+           <icon class="iconfont icon-return" bindtap='callbackIndex'></icon>
+       </view>
+</view>
+<!--返回主页面结束  -->
+

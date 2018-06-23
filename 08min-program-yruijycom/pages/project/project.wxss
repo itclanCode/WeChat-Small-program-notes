@@ -1,0 +1,73 @@
+/* pages/project/project.wxss */
+/*引入外部样式  */
+@import  "../asset/commonstyle/iconfont.wxss";
+
+/*title start  */
+.title{
+   text-align:center;
+   display:flex;
+   padding:0 30rpx;
+   margin-bottom:10rpx;
+}
+.title .title-name{
+  padding:0 30rpx;
+  font-size:38rpx;
+  font-weight:bold;
+}
+.line{
+    flex:1;
+    background:#ccc;
+    height:1rpx;
+    margin-top:30rpx;
+}
+.icon-gongchengxiangmuxinxi{
+  font-size:50rpx;
+  color:coral;
+  margin-right:10rpx;
+}
+/*title end  */
+/*钢结构工程开始  */
+.flex-wrap{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 20rpx;
+    margin-bottom:20rpx;
+}
+.flex-item{
+   flex:1;
+   height:220rpx;
+   margin:0 10rpx 0 10rpx;
+}
+.flex-item image{
+  displaty:inline-block;
+  width:332rpx;
+  height:220rpx;
+}
+/*钢结构工程结束  */
+/*天棚工程  */
+.top-tianpeng{
+  width:700rpx;
+   height:240rpx !important;
+}
+.top-tianpeng-img{
+      display:inline-block;
+      width:687rpx !important;
+      height:240rpx !important;
+}
+.bottom-tianpeng{
+  display:inline-block;
+  width:212rpx !important;
+}
+/*天棚工程  */
+/*拨打电话  */
+.callphone{
+    position:fixed;
+    right:50rpx;
+    bottom:80rpx;
+}
+.icon-dianhua{
+    font-size:60rpx;
+    color:dodgerblue;
+}
+/*拨打电话  */

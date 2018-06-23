@@ -1,0 +1,117 @@
+<!--pages/project/project.wxml-->
+<!--工程案例项开始  -->
+<!--顶部banner图开始  -->
+<view>
+          <image src="http://www.hnjunchen.com/Content/UploadFiles/201611021501241.jpg" style="width:750rpx;height:350rpx;"></image>
+</view>
+<!--顶部banner图结束  -->
+<!--头部标识部分开始  -->
+<view>
+        <view class="title">
+                <view class="line"></view>
+                <view class="title-name"><icon class="iconfont icon-gongchengxiangmuxinxi"></icon>别墅工程</view>
+                  <view class="line"></view>
+        </view>
+</view>
+<!--头部标识部分结束  -->
+<!--工程案例项结束  -->
+<!--钢结构工程开始  -->
+<view>
+          <view class="flex-wrap">
+                  <view class="flex-item"><image src="http://www.kaienhouse.com/UpLoadFile/News/NewsFile/2013011363354977.jpg"></image></view>
+                  <view class="flex-item"><image src="http://www.scxyms.com/data/upload/image/20180206/1517889602950599.jpg"></image></view>
+          </view>
+          <view class="flex-wrap">
+                  <view class="flex-item"><image src="http://www.bygjg.com/data/upload/image/20171212/1513043333911941.jpg"></image></view>
+                  <view class="flex-item"><image src="http://www.sjzmdgjg.com/Upfile/20180418/2018041861816389.jpg"></image></view>
+          </view>
+</view>
+<!--钢结构工程结束  -->
+<!-- 天棚工程 -->
+<view>
+        <view class="title">
+                <view class="line"></view>
+                <view class="title-name"><icon class="iconfont icon-gongchengxiangmuxinxi"></icon>天棚工程</view>
+                  <view class="line"></view>
+        </view>
+</view>
+<view>
+         <view  class="flex-wrap">
+                    <view class="flex-item" class="top-tianpeng"><image class="top-tianpeng-img" src="http://www.bjlysdzs.com/upLoad/product/month_1704/201704111115276529.jpg"></image></view>
+          </view>
+          <view class="flex-wrap">
+                  <view class="flex-item"><image class="bottom-tianpeng" src="http://cmsimgshow.zhuchao.cc/23608/20150918044847.jpg?path=www.whdssd.com/uploads/cp/20150918044847.jpg"></image></view>
+                  <view class="flex-item"><image class="bottom-tianpeng"  src="http://www.bjlysdzs.com/upLoad/product/month_1704/20170411111106830.jpg"></image></view>
+                   <view class="flex-item"><image class="bottom-tianpeng"  src="http://img.258weishi.com/shangpu/20140720/d76d9d8b2c9de38920267fe11d3c4674.jpg?x-oss-process=image/resize,limit_0,m_fill,w_450,h_338"></image></view>
+          </view>
+</view>
+<!--天棚工程  -->
+<!--多高层钢结构工程开始  -->
+<view>
+        <view class="title">
+                <view class="line"></view>
+                <view class="title-name"><icon class="iconfont icon-gongchengxiangmuxinxi"></icon>多高层钢结构工程</view>
+                  <view class="line"></view>
+        </view>
+</view>
+<view>
+          <view class="flex-wrap">
+                  <view class="flex-item">
+                             <image src="http://www.liandegjg.com/d/file/cpzx/gjggc/2017-09-30/2ebe51b09b0055cc2de1230c832da1ba.jpg"></image>
+                  </view>
+                  <view class="flex-item">
+                            <image src="http://www.tianfonjs.com/UploadFiles/C130268234685515.jpg"></image>
+                  </view>
+          </view>
+          <view class="flex-wrap">
+                  <view class="flex-item">
+                         <image src="http://www.hq-gg.com/upLoad/product/month_1606/20160617171959204.jpg"></image>
+                  </view>
+                  <view class="flex-item">
+                           <image src="http://caigangganggou.com/uploads/allimg/170709/1-1FF91I9105R.png"></image>
+                  </view>
+          </view>
+</view>
+<!--多高层钢结构工程结束  --> 
+
+<!--家庭装修工程开始  -->
+<view>
+        <view class="title">
+                <view class="line"></view>
+                <view class="title-name"><icon class="iconfont icon-gongchengxiangmuxinxi"></icon>家庭装修工程</view>
+                  <view class="line"></view>
+        </view>
+</view>
+<view>
+          <view class="flex-wrap">
+                  <view class="flex-item">
+                             <image src="http://5b0988e595225.cdn.sohucs.com/images/20180307/c496b359205e44d1a9713eba51fe5a69.jpeg"></image>
+                  </view>
+                  <view class="flex-item">
+                              <image src="http://www.fulisiya.com/upload/image/20170819/20170819211948_8173.jpg"></image>
+                  </view>
+          </view>
+          <view class="flex-wrap">
+                  <view class="flex-item">
+                           <image src="http://img1n.soufunimg.com/viewimage/zxb/201608/05/294/1dc99e6a3e5dec5d9df92e0bbabfd364/432x324c.jpeg"></image>
+                  </view>
+                  <view class="flex-item">
+                           <image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfafCvXwki3HLEWR77iSS8ht00dezABP2pOhzScO6upPKYbNrSGg"></image>
+                  </view>
+          </view>
+</view>
+
+<view>
+        <view class="title">
+                <view class="line" style="margin-top:15rpx;"></view>
+                <view class="title-name" style="font-size:25rpx;color:#ccc;">到底了</view>
+                  <view class="line" style="margin-top:15rpx;"></view>
+        </view>
+</view>
+<!-- 家庭装修工程结束  -->
+<!--拨打电话开始  -->
+<view>
+      <view class="callphone" bindtap='callphone'><icon class="iconfont icon-dianhua"></icon></view>
+</view>
+<!--拨打电话结束  -->
+

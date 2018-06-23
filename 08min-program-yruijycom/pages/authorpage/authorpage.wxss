@@ -1,0 +1,56 @@
+/*引入外部的css  */
+@import "/pages/asset/commonstyle/iconfont.wxss";
+.banner image{
+  display:block;
+  width:750rpx;
+  height:350rpx;
+}
+
+.info{
+  padding:10rpx 30rpx  0 30rpx;
+  font-size:27rpx;
+   color:#333;
+}
+.info view{
+  border-bottom:1rpx solid #ccc;
+  line-height:80rpx;
+  white-space: nowrap;
+}
+.iconfont{
+   margin-right:10rpx;
+}
+.icon-author{
+  color:chartreuse;
+}
+.icon-jianjie{
+  color:coral;
+}
+.icon-gongzhonghao{
+  color:blue;
+}
+.dianzan{
+   text-align:center;
+   color:red;
+}
+.icon-dianzan{
+   color:red;
+   font-size:40rpx;
+}
+.zan-wrap image{
+      display:block;
+      margin:0 auto;
+      width:500rpx;
+      height:500rpx;
+}
+.icon-return{
+  font-size:60rpx;
+  color:dodgerblue;
+  position:fixed;
+  right:10rpx;
+  bottom:120rpx;
+}
+.encourage{
+  background:red;
+  color:#fff;
+}
+

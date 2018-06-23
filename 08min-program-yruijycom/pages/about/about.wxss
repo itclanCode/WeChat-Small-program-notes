@@ -1,0 +1,85 @@
+/* pages/about/about.wxss */
+
+/* 引入外部字体样式  */
+@import "../asset/commonstyle/iconfont.wxss";
+
+.about-top image{
+    width:750rpx;
+    height:360rpx;
+    display:block;
+}
+
+/*关于我们开始  */
+.content {
+    font-size:30rpx;
+    color:#666;
+}
+.content .title-name{
+       text-align:center;
+       font-weight:bold;
+       font-size:38rpx;
+       line-height:80rpx;
+       color:#333;
+}
+.text-indent{
+   text-indent:40rpx;
+   line-height:60rpx;
+
+}
+text{
+    font-weight:bold;
+}
+
+.how-concat view{
+   text-indent:20rpx;
+   line-height:60rpx;
+}
+.how-concat view .iconfont{
+    display:inline-block;
+    margin-right:10rpx;
+    font-size:40rpx;
+}
+.icon-map{
+  color:chartreuse;
+}
+.icon-shouji{
+  color:aqua;
+}
+.icon-zuoji{
+  color:darkorange;
+}
+.icon-weixin{
+  color:green;
+}
+.icon-dingyuehao{
+  color:dodgerblue;
+}
+.icon-qq{
+  color:fuchsia;
+}
+.icon-emil{
+  color:indianred;
+}
+.icon-time{
+  color:turquoise;
+}
+
+/*关于我们结束  */
+/*拨打电话  */
+.callphone{
+    position:fixed;
+    right:50rpx;
+    bottom:110rpx;
+}
+.icon-dianhua{
+    font-size:60rpx;
+    color:dodgerblue;
+}
+/*拨打电话  */
+.icon-return{
+  position:fixed;
+  bottom:10rpx;
+  right:50rpx;
+  color:dodgerblue;
+  font-size:60rpx;
+}

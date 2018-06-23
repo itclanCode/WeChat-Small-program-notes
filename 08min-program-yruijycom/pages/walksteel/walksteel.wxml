@@ -1,0 +1,206 @@
+<!--banner 顶部开始  -->
+<view>
+       <view><image  style="width:750rpx;height:320rpx;"    src="http://www.1jili.com/UploadFiles/2018//2018050509341658.jpg"></image></view>
+</view>
+<!--banner 顶部结束  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>钢结构屋面</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<!--钢结构屋面开始  -->
+<view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.strat.cn/gcsl/Picture/3_2_4max.gif"></image></view>
+                   <view class="flex-item"><image src="http://www.hljzhongjie.com/uploadfile/2017/0522/20170522045242896.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.dgzsgjg.com/upfile/2018/03/20180313115235_293.jpg"></image></view>
+        </view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.2gjg.com/upLoad/product/month_1711/201711121417395504.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.ygfs.com/upload/201802/01/201802011546298058.jpg"></image></view>
+                   <view class="flex-item"><image src="http://img.mp.sohu.com/upload/20170810/53e9e57c6e154ed3b445819d33aa47eb_th.png"></image></view>
+        </view>
+</view>
+<!--钢结构屋面结束  -->
+<!--活动房开始  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>活动房</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.lnguangyan.com/imageRepository/e35b8eee-c7f1-4756-8887-23093b4807d1.jpg"></image></view>
+                   <view class="flex-item"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjJjVF_5zvbb4AKxj_a5jEzvWUANIgenrLJuJg9XgjVtaxZ1FcnA"></image></view>
+                   <view class="flex-item"><image src="http://m.cgcbgjg.com/Content/File_Img/S_Product/2017-08-04/201708041018570113210.jpg"></image></view>
+        </view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.hongyuxiang.net/chanpin/UploadFiles_6702/201204/2012040620220976.jpg"></image></view>
+                   <view class="flex-item"><image src="http://m.njtjhdf.com/Content/File_Img/S_Product/2017-08-18/201708181410046688049.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.whhlcg.com/UpLoad/Product/2016-2-18/201602180923270468.jpg"></image></view>
+        </view>
+</view>
+<!--活动房结束  -->
+<!--拱形结构开始  -->
+<!-- title start -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>拱形结构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view class="page-seecting-spacing">
+         <scroll-view class="scroll-view-h"  scroll-x>
+                   <view class="scroll-view-item   item1"><image src="https://img2.bmlink.com/big/supply/2016/8/1/14/714221003332278.jpg"></image></view>
+                   <view class="scroll-view-item item2"><image src="http://img1.baiyewang.com/img2/4/1380/1263/11071263/msgpic/63846283.jpg"></image></view>
+                   <view class="scroll-view-item item3"><image src="http://www.desuman.net/imageRepository/e334ef50-5964-474c-90c7-41ae1dea2ece.jpg"></image></view>
+                   <view class="scroll-view-item item4"><image src="https://img2.bmlink.com/big/supply/2016/8/1/14/842012375053955.jpg"></image></view>
+                   <view class="scroll-view-item item5"><image src="http://gxgwd.net/uploads/allimg/c170403/14912054QTK0-25096.jpg"></image></view>
+                   <view class="scroll-view-item item6"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5ouooACD9uwe0gVEnZYfBQSuMXhAFXlPPoBmWEg1UvOw--8jzA"></image></view>
+         </scroll-view>
+</view>
+<!--拱形结构结束  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>钢结构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.zhonglianjsjg.com/upload/201607/21/201607211540219275.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.njhening.com/upload/20151131717390576.jpg"></image></view>
+                   <view class="flex-item"><image src="http://imgs.soufunimg.com/news/2016_07/01/zhishi/1467362864184_000.jpg"></image></view>
+        </view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.jmxygjg.com/UpLoadFile/image/bigpic/%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%20(5).jpg"></image></view>
+                   <view class="flex-item"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvb1G8SCHGusE1idLcN6Do2cy90jmKVwY0iqhP1oQ0WG0NRgcHQ"></image></view>
+                   <view class="flex-item"><image src="http://www.klh68.com/UploadFiles/FCK/2014-12/6355339810841015636129420.jpg"></image></view>
+        </view>
+</view>
+<!--钢结构结束  -->
+
+<!--网架构开始  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>网架构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.ysqgbs.com/uploads/allimg/c170505/149395X2Z9120-14a0.jpg"></image></view>
+                   <view class="flex-item"><image src="http://file01.up71.com/File/CorpPhotoImages/2013/08/29/0_A20825_20130829214353.jpg"></image></view>
+                   <view class="flex-item"><image src="http://sdhengtong.cn/file/upload/201605/24/231250421.jpg"></image></view>
+        </view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://img.xuanchuanyi.com/xuanchuanyi/20150107/035536ae6af940bed14821a464a37255.jpg?x-oss-process=image/resize,limit_0,m_fill,w_450,h_338"></image></view>
+                   <view class="flex-item"><image src="http://yilansteel.com/admin/uploadpic/20141017366232101525.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.xfdxg.com/pic/big/178_1.jpg"></image></view>
+        </view>
+</view>
+<!--网结构结束  -->
+<!--膜结构开始  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>膜结构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view class="page-seecting-spacing">
+         <scroll-view class="scroll-view-h"  scroll-x>
+                   <view class="scroll-view-item   item1"><image src="http://www.sztcmjg.com/kindeditor/attached/image/20180301/20180301104046_79428.jpg"></image></view>
+                   <view class="scroll-view-item item2"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4m3B4oM4t0Npvoyhjr6cNH_1Vy-EzxiTCM_pNJK4uwDV3hpKa"></image></view>
+                   <view class="scroll-view-item item3"><image src="http://www.mojiegoucn.com/uploads/allimg/171012/1-1G0120216143W.jpg"></image></view>
+                   <view class="scroll-view-item item4"><image src="http://www.ccmjg.com/uploadfile/20140426121654056.jpg"></image></view>
+                   <view class="scroll-view-item item5"><image src="http://www.wzdogjg.com/up_files/product/%E4%BD%93%E8%82%B2%E5%9C%BA%E8%86%9C%E7%BB%93%E6%9E%84.jpg"></image></view>
+                   <view class="scroll-view-item item6"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaiO__AjC9S6axPJ8tbQkfxpW8YQgvwYctgUE8GIqIjHdMeIyfpw"></image></view>
+         </scroll-view>
+</view>
+<!--膜结构结束  -->
+
+<!--重钢结构开始  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>重钢结构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://img.wezhan.us/content/sitefiles/1016699/images/8748301_%E5%A4%9A%E9%AB%98%E5%B1%82%E9%92%A2%E7%BB%93%E6%9E%84%E5%B7%A5%E7%A8%8B%E6%A1%88%E4%BE%8B5.jpeg"></image></view>
+                   <view class="flex-item"><image src="http://image.cn.made-in-china.com/cnimg/prod_ed564B4M3P6k/0/%E9%92%A2%E7%AD%8B%E6%A1%81%E6%9E%B6%E6%A5%BC%E6%89%BF%E6%9D%BF%E9%92%A2%E7%BB%93%E6%9E%84%E5%A4%9A%E9%AB%98%E5%B1%82%E9%92%A2%E7%BB%93%E6%9E%84%E8%BD%BB%E9%92%A2%E5%88%AB%E5%A2%85_800x800.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.jnhy-88.com/UploadFiles/product/2.jpg"></image></view>
+        </view>
+        <view class="flex-wrap">
+                   <view class="flex-item"><image src="http://www.plxhgjg.com/data/images/product/20170523103106_981.jpg"></image></view>
+                   <view class="flex-item"><image src="http://www.gdsteels.com/uploads/allimg/170321/2-1F321091315338.jpg"></image></view>
+                   <view class="flex-item"><image src="http://m.hanganzsgc168.com/pic/201801041823199485.jpg"></image></view>
+        </view>
+</view>
+<!--重钢结构结束  -->
+
+<!--轻钢结构开始  -->
+<!-- title start -->
+<view>
+         <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text>轻钢结构</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view class="page-seecting-spacing">
+            <scroll-view lazy-load="true" class="scroll-view-height" scroll-y scroll-top="0">
+                      <view class="scroll-view-item"><image src="http://www.precast.com.cn/includes/ueditor/php/upload/25771494220727.jpg"></image></view>
+                      <view class="scroll-view-item"><image src="http://www.gjgcbf.com/uploads/140716/1-140G6112P1U4.jpg"></image></view>
+                      <view class="scroll-view-item"><image src="http://niuerdata.donews.com/data/shareimg_oss/big_media_img/2018/04/01/6136a043eaeb476a8f6bd1b5aabe1a02.JPEG"></image></view>
+                      <view class="scroll-view-item"><image src="https://img1.bmlink.com/big/supply/2013/9/17/16/532943484155901.jpg"></image></view>
+                      <view class="scroll-view-item"><image src="https://himg.china.cn/0/4_467_225544_790_590.jpg"></image></view>
+                      <view class="scroll-view-item"><image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtfDFmPIK33c75Svv3Dumn0No4cmIrNZMA4CWLPYwipX7LPfUI"></image></view>
+            </scroll-view>
+</view>
+<!--轻重钢结束  -->
+<!-- title start -->
+<view>
+         <view class="title" style="margin-top:20rpx;">
+                  <view class="line"></view>
+                  <view class="title-name" style="font-size:28rpx;color:#ccc;"><text>我是有底线的</text></view>
+                  <view  class="line"></view>
+       </view>
+</view>
+<!--title end  -->
+<view>
+      <view>
+                  <button class="back" bindtap="backpage">返回</button>
+      </view>
+</view>
+<!--拨打电话开始  -->
+<view>
+      <view class="callphone" bindtap='callphone'><icon class="iconfont icon-dianhua"></icon></view>
+</view>
+<!--拨打电话结束  -->
+

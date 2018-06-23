@@ -1,0 +1,190 @@
+/**index.wxss**/
+/*导入外部css字体样式  */
+@import    '../asset/commonstyle/iconfont.wxss' ;
+
+/*indextopbanner start  */
+
+.index-top-banner .slide-image{
+   width:750rpx;
+   height:350rpx;
+   display:block;
+}
+/*indextopbanner end  */
+/* 导航栏部分开始  */
+.nav{
+  box-sizing: border-box;
+   padding:0 80rpx;
+}
+.nav .flex-wrap{
+   margin-top:30rpx;
+}
+.flex-wrap{
+    display:flex;       /*声明弹性盒模型*/
+    flex-direction: row;   /* 子项是水平排列的*/
+     justify-content: space-between; /* 伸缩项目平均分布在行里，第一个伸缩项目一行中的最开始位置,最后一个伸缩项目在一行中最终点位置,类似旧版本中的justify*/
+     
+}
+.nav .flex-wrap .flex-item{
+    width:150rpx;
+    height:150rpx;
+    text-align:center;
+    font-size:24rpx;
+}
+.flex-item1::after{
+     content:"走进钢结构";
+     display:block;
+}
+.flex-item2::after{
+    content:"钢结构产品";
+    display:block;
+}
+.flex-item3::after{
+    content:"钢构维护系统";
+    display:block;
+}
+.flex-item4:after{
+    content:"家庭装修";
+    display:block;
+}
+.flex-item5:after{
+    content:"品质工程";
+    display:block;
+}
+.flex-item6:after{
+    content:"关于我们";
+    display:block;
+}
+
+.iconfont{
+    font-size:70rpx;
+    margin-bottom:10rpx;
+}
+.icon-zoujin{
+   color:aqua;
+}
+.icon-chanpin{
+   color:#FF5500;
+}
+.icon-weihu{
+    color:#B848FF;
+}
+.icon-zhuangxiu{
+    color:#FF8DB4;
+}
+.icon-gongcheng{
+   color:#7AB900;
+}
+.icon-guanyu{
+    color:#FF9800;
+}
+
+/* 导航栏部分结束  */
+/* 走进钢结构开始  */
+.part{
+   margin-top:40rpx;
+}
+.part .title{
+     display:-webkit-flex;
+     display:flex;
+     text-align:center;
+}
+.part .title .title-name{
+     padding:0  40rpx;
+}
+.part .title .title-name  text{
+   margin-left:10rpx;
+   font-weight:bold;
+   font-size:38rpx;
+}
+.part .title .line{
+        background:linear-gradient(
+	     	transparent 49%,
+	     	#ccc 49%, 
+	     	#ccc 51%, 
+	     	transparent 51%);
+	     	flex:1;
+}
+.part .flex-wrap{
+   padding:0 30rpx;
+}
+.part .flex-wrap .img-list{
+    width:155rpx;
+    height:220rpx;
+    text-align:center;
+    font-size:24rpx;
+}
+.part .flex-wrap .img-list image{
+    width:155rpx;
+    height:220rpx;
+    margin-bottom:10rpx;
+    display:block;
+}
+.part .layout-com{
+  margin-bottom:60rpx;
+}
+.find-more{
+   font-weight:normal;
+   font-size:28rpx !important;
+   color:#7AB900;
+}
+.footer-line{
+   font-size:16rpx;
+   color:#999;
+}
+/*走进钢结构结束  */
+/*联系开始*/
+.concat{
+  text-align:center;
+}
+.concat view{
+   line-height:50rpx;
+   font-size:28rpx;
+}
+.icon-zuoji{
+  color:#FF5500;
+}
+.icon-dianhua{
+  font-size:40rpx;
+  color:blueviolet;
+}
+/*联系结束*/
+
+/*底部版权开始  */
+.footer{
+   height:90rpx;
+   background:#000;
+   text-align:center;
+   font-size:20rpx;
+   color:#fff;
+   padding:20rpx 0 30rpx 0;
+}
+.footer view{
+   line-height:35rpx;
+}
+
+.author{
+      text-decoration:underline;
+}
+/*底部版权结束  */
+/*拨打电话  */
+.callphone{
+    position:fixed;
+    right:50rpx;
+    bottom:340rpx;
+}
+.icon-dianhua{
+    font-size:60rpx;
+    color:dodgerblue;
+}
+/*拨打电话  */
+/*分享转发功能开始  */
+.shareZhuanfa{
+  position:fixed;
+  bottom:150rpx;
+  right:50rpx;
+}
+.icon-zhuanfa{
+   font-size:60rpx;
+   color:red;
+}
+/*分享转发功能结束  */

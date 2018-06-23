@@ -1,0 +1,52 @@
+{
+  "plugins":{
+      "myPlugin":{
+         "version":"1.0.6",
+         "provider":"wx5bc2ac602a747594"
+      }
+  },
+  "pages":[
+    "pages/index/index",
+   "pages/project/project",
+   "pages/about/about",
+   "pages/walksteel/walksteel",
+   "pages/news/news",
+    "pages/authorpage/authorpage"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "北京勇瑞基业商贸有限公司",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#F44336",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/asset/images/tabBar/home.png",
+      "selectedIconPath": "pages/asset/images/tabBar/active-home.png"
+    },
+    {
+      "pagePath": "pages/project/project",
+      "text": "工程案例",
+      "iconPath": "pages/asset/images/tabBar/project.png",
+      "selectedIconPath": "pages/asset/images/tabBar/active-project.png"
+    },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻动态",
+        "iconPath": "pages/asset/images/tabBar/news.png",
+        "selectedIconPath": "pages/asset/images/tabBar/active-news.png"
+      },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于我们",
+      "iconPath": "pages/asset/images/tabBar/about.png",
+      "selectedIconPath": "pages/asset/images/tabBar/active-about.png"
+    }
+    
+    ]
+  }
+  
+}

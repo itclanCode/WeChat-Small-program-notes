@@ -1,0 +1,206 @@
+<!--index.wxml-->
+<!--头部轮播开始  -->
+<view class="index-top-banner">
+         <swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" width="750"/>
+          </swiper-item>
+  </block>
+         </swiper>
+</view>
+<!--头部轮播结束  -->
+<!--导航部分开始  -->
+<view class="nav">
+         <view class="flex-wrap">
+                     <view class="flex-item  flex-item1" bindtap='jumpsteel'><icon class="iconfont icon-zoujin"></icon></view>
+                      <view  class="flex-item flex-item2"><icon class="iconfont icon-chanpin"></icon></view>
+                      <view  class="flex-item flex-item3"><icon class="iconfont icon-weihu"></icon></view>
+         </view>
+          <view class="flex-wrap">
+                     <view class="flex-item  flex-item4"><icon class="iconfont icon-zhuangxiu"></icon></view>
+                      <view  class="flex-item flex-item5"><icon class="iconfont icon-gongcheng"></icon></view>
+                      <view  class="flex-item   flex-item6"  bindtap='jumpabout'><icon class="iconfont icon-guanyu"></icon></view>
+         </view>
+</view>
+<!--导航部分结束  -->
+<!--走进钢结构开始  -->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-zoujin"></icon><text>走进钢结构</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                                <view class="img-list"><image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1898686892,1020432800&fm=27&gp=0.jpg"  ></image><text>钢结构屋面</text></view>
+                                <view class="img-list"><image src="http://img5.imgtn.bdimg.com/it/u=360262993,1722773386&fm=27&gp=0.jpg"  ></image><text>活动房</text></view>
+                                <view class="img-list"><image src="http://www.zyzjbj.com/UploadFiles/FCK/2016-06/6360089180882812504548862.jpg"  ></image><text>拱形结构</text></view>
+                                <view class="img-list"><image src="http://www.zyjlgjg.com/Content/File_Img/S_Product/2016-09-23/201609232100243095746.jpg"  ></image><text>钢结构</text></view>
+                  
+        </view>
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                         <view class="img-list"><image src="http://www.hnshhgg.com/uploads/image/20180313/20180313170457_2455.jpg"  ></image><text>网架构型</text></view>
+                                <view class="img-list"><image src="http://www.21mjg.com/uploads/allimg/171025/1-1G025193KR04.jpg"  ></image><text>膜结构</text></view>
+                                <view class="img-list"><image src="http://www.hbzxgjg.com/Uploads/56614aae0de73.jpg"  ></image><text>重钢结构</text></view>
+                                <view class="img-list"><image src="http://imgs.soufunimg.com/news/2016_07/01/zhishi/1467362864184_000.jpg"  ></image><text>轻钢结构</text></view>
+        </view>
+        <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text class="find-more" bindtap="watchwalksteel">查看更多</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+</view>
+<!--走进钢结构结束  -->
+<!-- 钢结构产品开始  -->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-chanpin"></icon><text>钢结构产品</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                                <view class="img-list"><image src="http://www.cxesgjg.com/upload_file/news/2018/05/20180521142547411.jpg"  ></image><text>彩钢板</text></view>
+                                <view class="img-list"><image src="http://www.cnshontv.com/uploads/allimg/141016/1-1410161611400-L.jpg"  ></image><text>钢结构厂房</text></view>
+                                <view class="img-list"><image src="http://www.dglxgg.com/product/201312/2013122164508277.jpg"  ></image><text>轻重钢构件</text></view>
+                                <view class="img-list"><image src="http://www.qdthsc.com/imageRepository/0e886098-5b24-4150-beb5-57d071603652.jpg"  ></image><text>箱型柱</text></view>
+                  
+        </view>
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                         <view class="img-list"><image src="http://www.beststeel-sy.com/UploadFile/Product/2011121737679861.jpg"  ></image><text>十字柱</text></view>
+                                <view class="img-list"><image src="http://www.scxyms.com/data/upload/image/20180325/1521991584842187.jpg"  ></image><text>轻钢别墅</text></view>
+                                <view class="img-list"><image src="http://www.gzqcgjg.com/data/images/product/20171124132239_576.jpg"  ></image><text>多高层钢结构</text></view>
+                                <view class="img-list"><image src="http://www.szwodefu.com/UpLoad/2016-8/11315250.jpg"  ></image><text>钢结构平台</text></view>
+        </view>
+        <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text class="find-more">查看更多</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+</view>
+<!-- 钢结构产品结束  -->
+<!-- 钢结构维护系统开始  -->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-weihu"></icon><text>钢结构维护系统</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                                <view class="img-list"><image src="http://www.cqlgcs.com/uploadfile/20160718/20160718211621536.jpg"  ></image><text>天棚</text></view>
+                                <view class="img-list"><image src="http://www.wxshunqian.com/upload/201708/1503991170.jpg"  ></image><text>岩棉夹芯板</text></view>
+                            
+                                <view class="img-list"><image src="http://www.sqydym.com/upload/201704/19/201704191139402559.jpg"  ></image><text>泡沫夹芯板</text></view>
+                                <view class="img-list"><image src="http://www.jwcgyxgs.com/themes/skin/pro03-03-04.jpg"  ></image><text>聚氨酯板</text></view>
+                  
+        </view>
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                         <view class="img-list"><image src="http://www.huameijituan.net/cp/hm1-20.jpg"  ></image><text> 玻璃棉复合板</text></view>
+                                <view class="img-list"><image src="http://www.jingan168.com/UploadFiles/Others/201509261653034615226.jpg"  ></image><text>彩钢压型板</text></view>
+                                <view class="img-list"><image src="http://www.lzshcg.com/images/0501.jpg"  ></image><text>C,Z型钢</text></view>
+                                <view class="img-list"><image src="http://cmsimgshow.zhuchao.cc/29852/201706101004482032985297364.png?path=www.0311xy.com/uploads/cp/201706101004482032985297364.png"  ></image><text>楼承板</text></view>
+        </view>
+        <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><text class="find-more">查看更多</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+</view>
+
+<!-- 钢结构维护系统结束  -->
+
+<!-- 家庭装修开始-->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-zhuangxiu"></icon><text>家庭装修</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                                <view class="img-list"><image src="http://colorfultoronto.com/wp-content/uploads/2017/10/1-1280x960.jpg"  ></image><text>室内装修</text></view>
+                                <view class="img-list"><image src="http://www.yimenchuang.com/UpFiles/2013/8/25/thumb_2013082556404553.jpg"  ></image><text>断桥铝门窗</text></view>
+                            
+                                <view class="img-list"><image src="http://cmsimgshow.zhuchao.cc/33155/201805041358140023315554833.jpg?path=www.51abte.com/uploads/cp/201805041358140023315554833.jpg"  ></image><text>塑钢门窗</text></view>
+                                <view class="img-list"><image src="http://www.cdgczx.com/uploads/allimg/161007/1-16100G52241.jpg"  ></image><text>吊顶</text></view>
+                  
+        </view>
+</view>
+<!--家庭装修结束  -->
+<!--品质工程开始  -->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-gongcheng"></icon><text>品质工程</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="layout-com go-gangjie-gou flex-wrap">
+                                <view class="img-list"><image src="http://www.szmenye.com/UpLoad/201704/2017041538282485.jpg"  ></image><text>北京轻钢别墅</text></view>
+                                <view class="img-list"><image src="http://www.fiate.cn/Upload/image/20160407/20160407150248_6688.jpg"  ></image><text>石家庄天棚</text></view>
+                            
+                                <view class="img-list"><image src="http://a0.att.hudong.com/65/13/19300534222410135148139890966.jpg"  ></image><text>北京楼宇装修</text></view>
+                                <view class="img-list"><image src="http://img.51jiabo.com//uploadimg/ueditorimage/20160601/1464767602264049732.jpg"  ></image><text>天津家装修</text></view>
+                  
+        </view>
+</view>
+<!--品质工程结束  -->
+<!--联系我们开始  -->
+<view class="part">
+       <!--title start  -->
+       <view class="title">
+                  <view class="line"></view>
+                  <view class="title-name"><icon class="iconfont icon-zuoji"></icon><text>联系我们</text></view>
+                  <view  class="line"></view>
+       </view>
+       <!--title end  -->
+        <view class="concat">
+              <view >电话:13701134148</view>
+              <view>个人微信:yongruijiye</view>
+              <view>官方微信公众号:勇瑞钢构</view>  
+             <view>公司邮箱:yruijy@163.com</view>
+             <view>公司官网:http://www.yruijy.com</view>
+        </view>
+</view>
+<!--联系我们结束  -->
+<!--底部版权开始-->
+<view class="footer">
+         <view>勇瑞基业提供技术支持</view>
+         <view class="author" bindtap="jumpauthor">@developer  随笔川迹 | itclanCoder</view>
+         <view>Copyright©2018北京勇瑞基业商贸有限公司 版权所有</view>
+</view>
+
+<!--底部版本结束  -->
+<!--拨打电话开始  -->
+<view>
+      <view class="callphone" bindtap='callphone'><icon class="iconfont icon-dianhua"></icon></view>
+</view>
+<!--拨打电话结束  -->
+<!--分享到群聊开始  -->
+<view>
+        <view>
+        <button open-type='share'>
+                    <icon class="iconfont icon-zhuanfa shareZhuanfa" bindtap='shareZhuanfa'></icon>
+        </button>
+        </view>
+</view>
+<!--分享到群聊结束  -->
+
+
+
+
+
